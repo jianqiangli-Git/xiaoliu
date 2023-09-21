@@ -1,0 +1,94 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/myself/myself",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/skin-change/skin-change",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "切换主题",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "打卡"
+			}
+		}
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "排行榜",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/square/square",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "广场",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/record-noselect.png",
+				"selectedIconPath": "static/image/record-select.png",
+				"text": "今日打卡"
+			}, {
+				"pagePath": "pages/square/square",
+				"iconPath": "static/image/squre-noselect.png",
+				"selectedIconPath": "static/image/squre-select.png",
+				"text": "打卡广场"
+			}, {
+				"pagePath": "pages/order/order",
+				"iconPath": "static/image/order-noselect.png",
+				"selectedIconPath": "static/image/order-select.png",
+				"text": "大神排行"
+			}, {
+				"pagePath": "pages/myself/myself",
+				"iconPath": "static/image/my-noselect.png",
+				"selectedIconPath": "static/image/my-select.png",
+				"text": "个人中心"
+			}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

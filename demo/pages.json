@@ -1,0 +1,99 @@
+{
+  "easycom": {
+	"autoscan": true,
+	"custom":{
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	}
+  },
+  "pages": [
+	{
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "打卡广场"
+      }
+    },
+	{
+	  "path": "pages/search/index",
+	  "style": {
+	    "navigationBarTitleText": "搜索"
+	  }
+	},
+    {
+      "path": "pages/message/index",
+      "style": {
+        "navigationBarTitleText": "排行榜"
+      }
+    },
+    {
+      "path": "pages/personal/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+	{
+	  "path": "pages/classification/index",
+	  "style": {
+	    "navigationBarTitleText": "招租"
+	  }
+	},
+	{
+		"path": "pages/qrcode/qrcode",
+		"style": {
+			"navigationBarTitleText": "打卡计划"
+		}
+	}
+      ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "欢迎来到小流",     //默认导航栏标题
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#222222",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "/static/tab-home-current.png",
+        "text": "广场"
+      },
+      {
+        "pagePath": "pages/classification/index",
+        "iconPath": "static/tab-cate.png",
+        "selectedIconPath": "static/tab-cate-current.png",
+        "text": "摄影"
+      },
+      {
+        "pagePath": "pages/qrcode/qrcode",
+        "iconPath": "static/tab-qrCode.png",
+        "selectedIconPath": "static/tab-qrCode-current.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "iconPath": "static/tab-new.png",
+        "selectedIconPath": "static/tab-new-current.png",
+        "text": "排行"
+      },
+      {
+        "pagePath": "pages/personal/index",
+        "iconPath": "static/tab-my.png",
+        "selectedIconPath": "static/tab-my-current.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/tabbar/classification/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/tabbar/message/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/tabbar/personal/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/tabbar/qrcode/qrcode",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"tabBar": {
+	  "color": "#222222",
+	  "selectedColor": "#1296db",
+	  "borderStyle": "black",
+	  "backgroundColor": "#ffffff",
+	  "list": [
+	    {
+	      "pagePath": "pages/tabbar/index/index",
+	      "iconPath": "static/tab-home.png",
+	      "selectedIconPath": "static/tab-home-current.png",
+	      "text": "首页"
+	    },
+	    {
+	      "pagePath": "pages/tabbar/classification/index",
+	      "iconPath": "static/tab-cate.png",
+	      "selectedIconPath": "static/tab-cate-current.png",
+	      "text": "摄影"
+	    },
+	    {
+	      "pagePath": "pages/tabbar/qrcode/qrcode",
+	      "iconPath": "static/tab-qrCode.png",
+	      "selectedIconPath": "static/tab-qrCode-current.png",
+	      "text": "发布"
+	    },
+	    {
+	      "pagePath": "pages/tabbar/message/index",
+	      "iconPath": "static/tab-new.png",
+	      "selectedIconPath": "static/tab-new-current.png",
+	      "text": "消息"
+	    },
+	    {
+	      "pagePath": "pages/tabbar/personal/index",
+	      "iconPath": "static/tab-my.png",
+	      "selectedIconPath": "static/tab-my-current.png",
+	      "text": "个人中心"
+	    }
+	  ]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
